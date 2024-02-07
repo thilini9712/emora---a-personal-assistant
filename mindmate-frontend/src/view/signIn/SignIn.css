@@ -1,0 +1,105 @@
+/*Desktop Size*/
+
+.row-signIn {
+    text-align: center;
+    width: 100%;
+}
+
+.left-side {
+    background-color: #171742;
+}
+
+.signIn-logo {
+    margin-top: 50%;
+}
+
+.left-color-div {
+    background: rgb(30, 93, 136);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(30, 93, 136) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.right-side {
+    background-color: #ffffff;
+    height: 100vh;
+    border-radius: 80px 0 0 80px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.sign-in-form-align {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    vertical-align: middle;
+
+
+}
+@media screen and (max-width: 800px) {
+    .row-signIn {
+        display: none;
+    }
+}
+
+/*Desktop Size*/
+
+
+/*Mobile Size*/
+
+@media screen and (min-width: 800px){
+    .mobile-view{
+        display: none;
+    }
+}
+
+.mobile-view {
+    background-color: #1E5D88;
+    height: 80vh
+}
+
+.top-side {
+    height: 35vh;
+    text-align: center;
+}
+
+.bottom-side {
+    background-color: #ffffff;
+    border-radius: 40px 40px 0 0;
+    height: 50vh;
+    text-align: center;
+}
+
+.m-log-align {
+    padding-top: 65px;
+}
+@media screen and (max-width: 1200px) {
+    .signIn-logo {
+        margin-top: 100%;
+        width: 80% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .m-log-align {
+        width: 50% !important;
+    }
+}
+@media screen and (max-width: 650px) {
+    .row-signIn {
+        width: 102.6%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .m-log-align {
+        width: 60% !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .m-log-align {
+        width: 60% !important;
+    }
+}
+
+.login-form--m{
+    padding-top:70px !important;
+}

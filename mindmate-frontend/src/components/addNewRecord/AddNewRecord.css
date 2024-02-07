@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "lato-bold";
+    src: local("lato-bold"),
+    url("../../assets/font/Lato-Bold.ttf") format("truetype");
+}
+
+/*#add-new-main-section{*/
+/*    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;*/
+/*    border-radius:15px;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    width: 50vw;*/
+/*    z-index: 999;*/
+/*}*/
+
+.record-form {
+    position: absolute;
+    width: 22%;
+    top: 30%;
+    left: 40%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title-align-add-form {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "lato-bold" !important;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.close-btn {
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#add-record-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.selection-gender{
+    border-radius: 10px;
+    height:40px;
+    padding-left:13px;
+    width: 100%;
+    /*font-size: 20px;*/
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border-color: #d8d8d8;
+    font-family: "lato-bold" !important;
+    font-style: normal;
+    font-weight: 200;
+    color: #757575;
+}
+
+.font-set{
+    font-family: "lato-bold" !important;
+    font-style: normal !important;
+    font-weight: 200 !important;
+    text-decoration: none;
+    color: #757575 !important;
+}
+
+@media screen and (max-width:1000px) {
+    .selection-gender{
+        font-size:12px !important;
+    }
+    .add-new-main-section{
+        height:20px !important;
+    }
+    .record-form {
+        position: absolute;
+        width: 80% !important;
+        top: 15% !important;
+        left: 10%;
+        background-color: #FFFFFF;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .title-align-add-form{
+        font-size:14px;
+    }
+
+}

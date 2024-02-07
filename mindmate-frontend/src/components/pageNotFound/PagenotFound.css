@@ -1,0 +1,16 @@
+.page-not-found {
+    height: 930px;
+    position: relative;
+    background: rgba(51, 51, 51, 0.7);
+}
+
+.page-not-found h1 {
+    color: rgba(51, 51, 51, 0.514);
+    font-size: 36px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

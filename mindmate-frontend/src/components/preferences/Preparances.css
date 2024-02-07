@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "lato-Thin";
+    src: local("GoldmanBold"),
+    url("../../assets/font/Lato-Thin.ttf") format("truetype");
+}
+
+.title-align-preferences {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "lato-bold" !important;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+
+}
+
+.description-para {
+    font-family: "lato-Thin" !important;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.pre-size {
+    width: 20px;
+}
+
+.pre-selection-btn {
+    font-size: 13px;
+    border: 0.5px solid #171742 !important;
+}
+
+.pre-btn-bord {
+    border-radius: 0 0 0 0 !important;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.upload-btn:hover {
+    background-color: #171742 !important;
+    color: #ffffff !important;
+}
+
+.preferences-btn {
+    border-radius: 10px 0 0 10px !important;
+}
+
+.preferences-btn-right {
+    border-radius: 0 10px 10px 0 !important;
+}
+
+@media screen and (max-width: 1705px){
+    .icon-img-repons{
+        width:20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description-para {
+        font-size: 12px !important;
+        line-height: normal;
+        text-align: left !important;
+        margin-left:10px !important
+    }
+    .dis-br{
+        display:none !important;
+    }
+    .icon-img-repons{
+        width:15px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .icon-img-repons{
+        width:12px;
+    }
+}

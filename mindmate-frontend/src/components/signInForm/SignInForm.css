@@ -1,0 +1,94 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffe3f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.input-field {
+    height: 55px;
+    /*background-color: #fff;*/
+    border-radius: 24px;
+    /*display: flex;*/
+    width: 100%;
+    text-align: right;
+    /*padding-left: 100px;*/
+}
+
+.input-field span {
+    cursor: pointer;
+}
+
+.text-line {
+    background-color: transparent;
+    color: #000000;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #656565 1px;
+    padding: 3px 10px;
+    font-size: 16px;
+}
+
+.text-line:focus {
+    outline: none !important;
+    border-bottom: solid #656565 1px;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.sign-in-label {
+    text-align: left;
+    font-size: 20px;
+}
+
+.sign-in-main {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-class {
+    position: absolute;
+}
+
+.forget-aline {
+    text-align: end;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+    margin-top: 100px;
+    width: 80% !important;
+}
+
+.let-sign-font {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .let-sign-font {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .let-sign-font {
+        font-size: 24px;
+    }
+    .sign-in-label{
+        font-size:18px;
+    }
+    .text-line{
+        font-size:16px;
+    }
+    .sign-in-btn {
+        margin-top: 50px;
+        width: 70% !important;
+        font-size:18px !important;
+    }
+
+}

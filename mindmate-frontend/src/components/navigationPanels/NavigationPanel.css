@@ -1,0 +1,98 @@
+.logo-name {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.side-bar {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    padding-top: 30px;
+    width: 150px;
+    height: 100vh;
+    background-color: #1e5d88;
+    z-index: 999;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 0 30px 30px 0;
+}
+
+.navigation-item-list {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #1e5d88;
+}
+
+.navigation-item {
+    width: 100%;
+    cursor: pointer;
+}
+
+.navigation-sub-item {
+    margin-top: 20px;
+    background-color: #1e5d88;
+}
+
+.navigation-item-link {
+    display: grid;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+.hover-icon:hover {
+    background-color: rgba(191, 202, 213, 0.10);
+    border-radius: 30px;
+}
+
+.sign-out-btn {
+    text-align: center;
+    margin-left: 30px;
+    position: fixed;
+    margin-bottom: 50px;
+    bottom: 0;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.css-weq8uy-MuiButtonBase-root-MuiAccordionSummary-root {
+    background-color: #1e5d88 !important;
+    padding-top: 0 !important;
+}
+
+.css-2u6l8m-MuiPaper-root-MuiAccordion-root {
+    background-color: #1e5d88 !important;
+}
+
+.css-kwc1wf-MuiButtonBase-root-MuiAccordionSummary-root {
+    margin-top: 0 !important;
+    padding: 20px 20px !important;
+}
+
+@media screen and (max-height: 842px) {
+    .navigation-item-list {
+        margin-top: 0;
+    }
+}
+
+/*mobile view*/
+.mobile-nav {
+    width: 100vw !important;
+    height: 20px !important;
+    z-index: 999;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar-icon-width {
+        width: 50%;
+    }
+}

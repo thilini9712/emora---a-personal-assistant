@@ -1,0 +1,164 @@
+/*.css-qa7bje-MuiButtonBase-root-MuiPickersDay-root {*/
+/*    font-size: 18px !important;*/
+/*}*/
+
+/*.css-cwhad8-MuiDateCalendar-root {*/
+/*    width: 90% !important;*/
+/*    max-height: 800px !important;*/
+/*}*/
+
+/*.css-1c32n2y-MuiBadge-root {*/
+/*    padding: 10px !important;*/
+/*}*/
+
+/*.css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel {*/
+/*    font-size: 18px !important;*/
+/*    padding: 28px !important;*/
+/*}*/
+
+/*.css-i5q14k-MuiDayCalendar-header {*/
+/*    padding: 10px !important;*/
+
+/*}*/
+
+/*.css-dplwbx-MuiPickersCalendarHeader-label {*/
+/*    font-size: 18px !important;*/
+/*}*/
+
+/*.css-nk89i7-MuiPickersCalendarHeader-root {*/
+/*    padding-left: 35px !important;*/
+/*}*/
+
+/*.css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition {*/
+/*    min-height: 350px !important;*/
+/*}*/
+/*.css-cwhad8-MuiDateCalendar-root{*/
+/*    width:90% !important;*/
+/*}*/
+/*@media screen and (max-width: 1700px) {*/
+/*    .css-1c32n2y-MuiBadge-root {*/
+/*        padding: 5px !important;*/
+/*    }*/
+/*    .css-nk89i7-MuiPickersCalendarHeader-root {*/
+/*        padding-left: 20px !important;*/
+/*    }*/
+/*    .css-i5q14k-MuiDayCalendar-header {*/
+/*        padding: 5px !important;*/
+
+/*    }*/
+/*    .css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel {*/
+/*        font-size: 18px !important;*/
+/*        padding: 23px !important;*/
+/*    }*/
+
+/*}*/
+
+/*@media screen and (max-width: 1450px) {*/
+/*    .css-qa7bje-MuiButtonBase-root-MuiPickersDay-root {*/
+/*        font-size: 14px !important;*/
+/*    }*/
+/*    .css-1c32n2y-MuiBadge-root {*/
+/*        padding: 2px !important;*/
+/*    }*/
+/*    .css-nk89i7-MuiPickersCalendarHeader-root {*/
+/*        padding-left: 20px !important;*/
+/*    }*/
+/*    .css-i5q14k-MuiDayCalendar-header {*/
+/*        padding: 5px !important;*/
+
+/*    }*/
+/*    .css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel {*/
+/*        font-size: 14px !important;*/
+/*        padding: 20px !important;*/
+/*    }*/
+
+/*}*/
+/*@media screen and (max-width: 1300px) {*/
+/*    .css-qa7bje-MuiButtonBase-root-MuiPickersDay-root {*/
+/*        font-size: 12px !important;*/
+/*        !*width:10px !important;*!*/
+/*    }*/
+/*    .css-1c32n2y-MuiBadge-root {*/
+/*        padding: 0 !important;*/
+/*    }*/
+/*    .css-nk89i7-MuiPickersCalendarHeader-root {*/
+/*        padding-left: 0 !important;*/
+/*    }*/
+/*    .css-i5q14k-MuiDayCalendar-header {*/
+/*        padding: 0 !important;*/
+
+/*    }*/
+/*    .css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel {*/
+/*        font-size: 12px !important;*/
+/*        padding: 20px !important;*/
+/*    }*/
+
+
+/*}*/
+/*@media screen and (max-width: 1200px) {*/
+/*    .css-qa7bje-MuiButtonBase-root-MuiPickersDay-root {*/
+/*        font-size: 12px !important;*/
+/*    }*/
+
+/*    .css-cwhad8-MuiDateCalendar-root {*/
+/*        !*width: 400px !important;*!*/
+/*        max-height: 500px !important;;*/
+/*    }*/
+
+/*    .css-1c32n2y-MuiBadge-root {*/
+/*        padding: 5px !important;*/
+/*    }*/
+
+/*    .css-rhmlg1-MuiTypography-root-MuiDayCalendar-weekDayLabel {*/
+/*        font-size: 12px !important;*/
+/*        padding: 23px !important;*/
+/*    }*/
+
+/*    .css-i5q14k-MuiDayCalendar-header {*/
+/*        padding: 5px !important;*/
+
+/*    }*/
+
+/*    .css-dplwbx-MuiPickersCalendarHeader-label {*/
+/*        font-size: 15px !important;*/
+/*    }*/
+
+/*    .css-nk89i7-MuiPickersCalendarHeader-root {*/
+/*        padding-left: 40px !important;*/
+/*    }*/
+
+/*    .add-mark {*/
+/*        width: 20px !important;*/
+/*        height: 20px !important;*/
+/*    }*/
+/*    .css-cwhad8-MuiDateCalendar-root{*/
+/*        width:100% !important;*/
+/*    }*/
+/*}*/
+
+.react-calendar {
+    width: 500px;
+    max-width: 100%;
+    background: transparent;
+    font-family:lato-bold;
+    line-height: 1.125em;
+    padding:20px;
+}
+
+.highlight {
+    color:white;
+    background-color:#F8A910;
+    border-radius: 20px;
+}
+
+.react-calendar__tile--now {
+    background-color: #1e5d88;
+    border-radius:20px;
+    color:white;
+}
+
+.react-calendar__tile--active {
+    background: #006edc;
+    color: white;
+    border-radius: 20px;
+}

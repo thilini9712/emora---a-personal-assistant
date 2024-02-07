@@ -1,0 +1,40 @@
+.response-div{
+    border-radius: 8px;
+    border: 1px solid #9B9B9B !important;
+    background: #FFFFFFFF;
+    padding:30px;
+    margin-top: 10%;
+    font-family: Nunito Sans, sans-serif !important;
+    font-size:16px;
+
+}
+.mood-heading{
+    font-family: Nunito Sans, sans-serif !important;
+    font-size:18px;
+    font-weight:bold;
+
+}
+.face-img{
+    width:230px;
+    height:230px;
+}
+
+@media screen and (max-width:1200px) {
+    .face-img{
+        width:120px;
+        height:120px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .response-div{
+        display:none;
+    }
+    .face-img{
+        width:100px;
+        height:100px;
+    }
+    .mood-heading{
+        font-size: 15px ;
+    }
+}
